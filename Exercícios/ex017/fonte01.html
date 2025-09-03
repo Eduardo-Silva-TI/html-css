@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fontes em CSS</title>
+    <style>
+        body {
+            font-family: 'Work Sans', Arial,  Helvetica, sans-serif;
+            /* Medidas Absolutas 
+            cm, mm, in, px, pt, pc
+
+            Medidas Relativas 
+            em, ex, rem, vw, vh, %
+            16 px geralmente = 1em           
+            */
+            font-size: 1em;
+            font-weight: bolder;
+            font-style: italic;
+            /* lighter normal bold bolder*/
+        }
+        h1 {
+            /* shorthand font 
+            
+            - font-style -> font-weight -> font-size -> font-family */
+
+            /*  font-family: 'Work Sans', sans-serif;
+            font-weight: bolder;
+            font-size: 3em;
+            font-style: italic; */
+            font: italic bolder 3em 'Work Sans', sans-serif;
+        }
+
+        h2 {
+            font: bold 2em 'Work Sans';
+        }
+    </style>
+</head>
+<body>
+    <h1>Trabalhando com fontes</h1> 
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ab beatae minus nihil impedit ea asperiores unde iusto sit iste, quidem tempora dolorum veritatis, error esse saepe. Repudiandae tempora natus ea. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Deleniti dignissimos quisquam fugiat, provident perferendis aliquid et laboriosam dicta quae aut necessitatibus veniam voluptatibus optio molestias minus ab unde voluptas corrupti.</p> 
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quae eaque laboriosam reiciendis sint itaque veniam quod velit, optio dolores necessitatibus et reprehenderit nobis maxime quis odit officiis esse dolore maiores.</p>
+    <h2>Subtítulo do exercício</h2> 
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam, illo repudiandae quisquam sed minus numquam nostrum autem eius optio ipsa repellendus nam recusandae odio iusto quasi impedit aliquam earum iste?</p> 
+</body>
+</html>
